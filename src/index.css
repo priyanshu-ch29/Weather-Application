@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main-container{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://github.com/gauravghai/weatherApp-Reactjs/blob/master/src/images/background.jpg?raw=true');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 3rem;
+}
+
+.inner-container{
+  backdrop-filter: blur(0px) saturate(166%);
+  -webkit-backdrop-filter: blur(0px) saturate(166%);
+  background-color: rgba(78, 73, 73, 0.5);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  height: 85vh;
+  width: 60rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-container{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('https://github.com/gauravghai/weatherApp-Reactjs/blob/master/src/images/city.jpg?raw=true');
+  background-position: center center;
+  background-size: cover;
+  width: 65%;
+  height: 100%;
+}
